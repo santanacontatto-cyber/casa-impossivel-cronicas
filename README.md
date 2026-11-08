@@ -47,7 +47,7 @@ Fonte editorial: Cápsula 10 — O Botão Proibido, 2026-11-08, registrada no Go
 - `episodios/o-pendrive-do-apocalipse/index.html`: narrativa própria com quadrinho completo, leitura ampliada no celular, cinco cenas e bastidores.
 - `content-02.js`: roteiro público dramatizado, independente do roteiro do episódio 01.
 - `episodio-02.css`: apenas estilos específicos, sem alterar a página original.
-- `assets/quadrinhos/pendrive-apocalipse.webp` e `pendrive-painel-01..04.webp`: quadrinho original convertido para WebP e quatro recortes de leitura.
+- `assets/quadrinhos/pendrive-apocalipse.webp` e `pendrive-painel-01..04.webp`: quadrinho original convertido para WebP e oito recortes de leitura.
 - O catálogo lista dois episódios disponíveis; `133 Músicas. Nenhuma Lembrança` continua como ideia não publicada.
 
 **Limites factuais:** o teste do Sentinela-X comprovou inicialização do instalador Windows e abertura do PhotoRec no WinPE; recuperação ponta a ponta não foi provada. O desenvolvimento musical da ÓRBITA ocorreu posteriormente e não deve ser confundido com o ambiente de emergência. As falas do quadrinho e roteiro são dramatizadas, não transcrições. Os registros históricos e dados privados continuam fora deste repositório.
