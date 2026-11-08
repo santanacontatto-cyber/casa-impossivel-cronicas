@@ -1,0 +1,17 @@
+# Nunca publicar artefatos internos, segredos ou registros de máquina
+.env
+.env.*
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.cmd
+*.ps1
+*.pem
+*.key
+*.zip
+node_modules/
+__pycache__/
+QA_*
+preview-*.png

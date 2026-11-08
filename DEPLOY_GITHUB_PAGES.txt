@@ -1,0 +1,14 @@
+CASA IMPOSSÍVEL — CRÔNICAS DO IMPROVÁVEL — V2
+
+PENDENTE DE PUBLICAÇÃO. NÃO ENVIAR DOCUMENTOS PRIVADOS PARA O REPOSITÓRIO PÚBLICO.
+
+1) No GitHub, crie um repositório PÚBLICO NOVO chamado casa-impossivel-cronicas na sua conta. Deixe-o vazio (sem README automático) para evitar conflitos.
+2) Envie apenas o conteúdo deste ZIP para a raiz, não a pasta que o contém. index.html deve estar na raiz.
+3) Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save.
+4) Espere a publicação aparecer em Settings/Pages, teste no celular e só então divulgue.
+5) Antes de compartilhar no Instagram, atualize og:image para URL absoluta da imagem de prévia, quando a URL pública estiver definida.
+
+Site estático: não usa banco de dados, contas, analytics ou scripts externos.
+Episódio 01: episodios/o-botao-proibido/
+Catálogo: /
+Roteiro original privado NÃO incluído.
