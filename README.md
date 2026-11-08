@@ -1,4 +1,4 @@
-# CASA IMPOSSÍVEL — CRÔNICAS DO IMPROVÁVEL — v2.2 — dois episódios publicados
+# CASA IMPOSSÍVEL — CRÔNICAS DO IMPROVÁVEL — v2.4 — quatro episódios publicados
 
 ## Organização (nenhum material privado incluído)
 
@@ -57,3 +57,14 @@ Episódio baseado em relatórios ÓRBITA Lab 30G e 30G R2 de 31/10/2026. Capa, d
 Arquivos: `episodios/o-museu-das-91-capas/index.html`, `content-03.js`, `episodio-03.css`, `assets/quadrinhos/museu-*.webp`. Imagens originais geradas para esta crônica. Divulgação social tem três JPEGs opcionais sob `assets/instagram/`. Não altera os episódios 01 e 02.
 
 **Limite:** o Guardião relatou 91 edições de capa, não 91 obras verificadas. A investigação do erro 503 e da LRCLIB não atestou indisponibilidade global ou inexistência de letra.
+
+
+## Episódio 04 — 133 Músicas. Nenhuma Lembrança. (08/11/2026)
+
+- `episodios/133-musicas-nenhuma-lembranca/index.html`: página própria com duas pranchas, sete recortes mobile, cinco cenas originais e bastidores baseados nos registros.
+- `content-04.js`, `episodio-04.css`: texto e regras visuais restritos ao quarto episódio.
+- `assets/quadrinhos/133-*.webp`: artes compostas a partir de ilustrações originais geradas para a série, com balões tipográficos finalizados manualmente para legibilidade.
+- `assets/instagram/133-musicas-ig-01..03.jpg`: carrossel vertical opcional.
+- O catálogo mantém episódios anteriores e passa a incluir o episódio 04. A ideia de backlog deixa de ser somente promessa.
+
+**Base e limites:** primeiro JSON tinha índice de 133 faixas e zero anexos; depois um anexo comprovado em Chrome, e em uma etapa posterior 10 faixas com anexos e 8 capas offline verificadas. Isso **não** é prova de recuperação de 133 músicas nem dos MP3. O pacote portátil não contém áudio. A candidata Lab 30F não foi homologada integralmente em PC limpo.
