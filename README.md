@@ -1,4 +1,4 @@
-# CASA IMPOSSÍVEL — CRÔNICAS DO IMPROVÁVEL — v2 (prévia)
+# CASA IMPOSSÍVEL — CRÔNICAS DO IMPROVÁVEL — v2 (publicação inicial)
 
 ## Organização (nenhum material privado incluído)
 
@@ -25,7 +25,9 @@
 
 ## Testar
 
-Abrir `index.html` localmente para ver o catálogo; entrar no episódio clicando no destaque. O conteúdo usa HTML/CSS/JS locais sem dependências externas. Links das imagens em tamanho original abrem em aba nova. No GitHub Pages, publicar `index.html` na raiz do repositório (branch `main` → root). Não colocar em repositórios privados operacionais.
+Site público: https://santanacontatto-cyber.github.io/casa-impossivel-cronicas/
+
+Para testar localmente, abra `index.html`, entre no episódio pelo catálogo e verifique as imagens. O conteúdo usa HTML/CSS/JS locais sem dependências externas. Os quadrinhos em tamanho original abrem em aba nova. O GitHub Pages usa a branch `main`, pasta `/(root)`. Os repositórios operacionais privados permanecem separados.
 
 ## Integridade editorial
 
@@ -33,7 +35,7 @@ Abrir `index.html` localmente para ver o catálogo; entrar no episódio clicando
 - A falha exata do Windows não foi diagnosticada.
 - O Windows aparece como personagem satírico, com referências gráficas ao sistema; não há qualquer vínculo ou patrocínio Microsoft.
 - Nenhum conteúdo do Sentinela Transport, da ÓRBITA, dos registros pessoais, do Drive privado ou de credenciais foi copiado.
-- Esta entrega é **PRÉVIA**; nada foi publicado em GitHub Pages.
+- Esta é a **primeira publicação pública** no GitHub Pages. Os episódios futuros serão adicionados com revisão editorial; a publicação não implica que o projeto está finalizado.
 
 ## Fontes e rastreabilidade
 
