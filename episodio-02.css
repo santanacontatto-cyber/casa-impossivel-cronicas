@@ -1,0 +1,37 @@
+
+/* EPISÓDIO 02 — ajustes restritos à página do Pendrive; não afetam a estreia. */
+.hero-pendrive{background:radial-gradient(ellipse at 72% 28%,#421458 0%,#1b0b31 42%,#0b0814 80%)}
+.hero-ep02-inner{grid-template-columns:1.08fr .92fr;min-height:720px;gap:50px;padding-top:72px;padding-bottom:80px}
+.title-pendrive{font-size:clamp(57px,6.6vw,92px)!important;line-height:.92!important;letter-spacing:-3px!important;max-width:720px!important}
+.title-pendrive span{font-size:.83em;line-height:1.03;letter-spacing:-2px!important;margin-top:7px}
+.pendrive-cover{position:relative;transform:rotate(1.2deg);filter:drop-shadow(0 22px 30px #0009)}
+.pendrive-cover a{display:block;background:#1b1025;border:3px solid #bf56ff;box-shadow:12px 12px 0 #0a0610;transition:transform .2s}
+.pendrive-cover a:hover{transform:translateY(-5px) rotate(-.8deg)}
+.pendrive-cover img{display:block;width:100%;height:auto;max-height:510px;object-fit:cover;object-position:top}
+.pendrive-cover a>span{display:block;background:var(--lime);padding:12px 15px;color:#15111e;font-weight:1000;font-size:12px;letter-spacing:.7px}
+.cover-sticker{position:absolute;right:-15px;top:40px;background:#d8ff1b;color:#100a17;font-size:13px;font-weight:1000;padding:12px;transform:rotate(8deg);box-shadow:4px 4px 0 #120c18;max-width:210px;text-align:center}
+.ep02-comic .section-heading h2{font-size:clamp(38px,5vw,68px)}
+.ep02-comic .section-heading h2 span,.bastidores-ep02 .section-heading h2 span{color:var(--lime)}
+.comic-lede{max-width:740px;color:#ddd1e7;line-height:1.65;font-size:18px;margin:12px 0 32px}
+.pendrive-poster{max-width:840px;margin:0 auto 32px;transform:rotate(-.3deg)}
+.pendrive-poster>a{display:block;border:3px solid #b754eb;background:#251233;box-shadow:11px 11px 0 #160b1f}
+.pendrive-poster img{display:block;width:100%;height:auto}
+.pendrive-poster span{display:block;background:var(--lime);color:#16111d;font-weight:1000;letter-spacing:.7px;text-align:center;padding:15px 20px;font-size:12px}
+.comic-cutline{display:flex;gap:15px;align-items:center;justify-content:center;margin-top:48px;margin-bottom:25px}
+.comic-cutline span{font-size:11px;background:var(--purple);padding:7px 12px;color:#0b0713;font-weight:1000;letter-spacing:.8px}
+.comic-cutline strong{font-size:14px;color:#cab9df}
+.pendrive-fragments{display:none}
+.bastidores-ep02{padding:95px 0 100px;background:#120b1b;border-top:1px solid #403052}
+.bastidores-ep02 h2{font-size:clamp(40px,5vw,69px);margin:0;font-family:'Roboto Condensed','Arial Black',Impact,sans-serif;font-weight:1000}
+.ep02-evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:35px}
+.ep02-evidence-grid article{border:1px solid #523866;background:#1a1127;padding:29px 24px;position:relative}
+.ep02-evidence-grid article::before{content:'✳';font-size:30px;color:var(--purple);position:absolute;right:20px;top:16px}
+.evidence-tag{font-size:10px;color:var(--lime);font-weight:1000;letter-spacing:1px;display:block;margin-right:27px}
+.ep02-evidence-grid h3{font-size:25px;line-height:1.14;margin:20px 0 14px}
+.ep02-evidence-grid p{font-size:14px;color:#ccc0dd;line-height:1.68;margin:0}
+.ep02-legal{font-size:12px;color:#9a8bad;max-width:830px;line-height:1.65;margin:22px 0 0}
+@media(max-width:1000px){.hero-ep02-inner{grid-template-columns:1fr;gap:45px}.pendrive-cover{max-width:470px;margin:auto}.ep02-evidence-grid{grid-template-columns:1fr}}
+@media(max-width:720px){.hero-ep02-inner{padding-top:40px;padding-bottom:55px;gap:30px}.title-pendrive{font-size:clamp(48px,11vw,78px)!important;letter-spacing:-2.5px!important}.title-pendrive span{letter-spacing:-1.2px!important}.cover-sticker{font-size:10px;max-width:145px;right:-5px;top:25px}.pendrive-cover{max-width:350px}.pendrive-cover img{max-height:380px}.comic-lede{font-size:15px}.pendrive-poster{max-width:100%;margin-bottom:35px;box-shadow:none}.pendrive-poster>a{box-shadow:6px 6px 0 #160b1f}.comic-cutline{display:flex;flex-direction:column;align-items:start;margin-top:32px}.pendrive-fragments{display:grid;gap:18px}.pendrive-fragments figure{margin:0;border:1px solid #513769;background:#1d1329;padding:8px}.pendrive-fragments img{display:block;width:100%;height:auto}.pendrive-fragments figcaption{font-size:10px;letter-spacing:.8px;font-weight:900;color:var(--lime);padding:9px 7px 2px}.bastidores-ep02{padding:66px 0 74px}.bastidores-ep02 h2{font-size:40px}.ep02-evidence-grid{gap:12px}.ep02-evidence-grid article{padding:22px 18px}}
+@media(prefers-reduced-motion:reduce){.pendrive-cover a{transition:none}}
+
+@media(max-width:720px){#episodio .speech-windows{width:100%}#episodio .speech-windows .speech-text{font-size:16px;letter-spacing:1px;overflow-wrap:anywhere}}
