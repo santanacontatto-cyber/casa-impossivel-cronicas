@@ -1,4 +1,4 @@
-# CASA IMPOSSÍVEL — CRÔNICAS DO IMPROVÁVEL — v2.2 (episódios 01 e 02)
+# CASA IMPOSSÍVEL — CRÔNICAS DO IMPROVÁVEL — v2.2 — dois episódios publicados
 
 ## Organização (nenhum material privado incluído)
 
@@ -25,9 +25,7 @@
 
 ## Testar
 
-Site público: https://santanacontatto-cyber.github.io/casa-impossivel-cronicas/
-
-Para testar localmente, abra `index.html`, entre no episódio pelo catálogo e verifique as imagens. O conteúdo usa HTML/CSS/JS locais sem dependências externas. Os quadrinhos em tamanho original abrem em aba nova. O GitHub Pages usa a branch `main`, pasta `/(root)`. Os repositórios operacionais privados permanecem separados.
+Abrir `index.html` localmente para ver o catálogo; entrar no episódio clicando no destaque. O conteúdo usa HTML/CSS/JS locais sem dependências externas. Links das imagens em tamanho original abrem em aba nova. No GitHub Pages, publicar `index.html` na raiz do repositório (branch `main` → root). Não colocar em repositórios privados operacionais.
 
 ## Integridade editorial
 
@@ -35,19 +33,27 @@ Para testar localmente, abra `index.html`, entre no episódio pelo catálogo e v
 - A falha exata do Windows não foi diagnosticada.
 - O Windows aparece como personagem satírico, com referências gráficas ao sistema; não há qualquer vínculo ou patrocínio Microsoft.
 - Nenhum conteúdo do Sentinela Transport, da ÓRBITA, dos registros pessoais, do Drive privado ou de credenciais foi copiado.
-- Esta é a **primeira publicação pública** no GitHub Pages. Os episódios futuros serão adicionados com revisão editorial; a publicação não implica que o projeto está finalizado.
+- A série está no GitHub Pages. Episódio 02 acrescentado em 08/11/2026, adaptado de fontes privadas preservadas.
 
 ## Fontes e rastreabilidade
 
 Fonte editorial: Cápsula 10 — O Botão Proibido, 2026-11-08, registrada no Google Drive. Base do site: primeira prévia Casa Impossível EP01; esta v2 foi criada de forma separada, sem alterar o pacote anterior. Cartões de Instagram v1 foram preservados.
 
 
-## Episódio 02 — O Pendrive do Apocalipse (08/11/2026)
+## Episódio 02 — O Pendrive do Apocalipse
 
-- `episodios/o-pendrive-do-apocalipse/index.html`: narrativa própria com quadrinho completo, leitura ampliada no celular, cinco cenas e bastidores.
-- `content-02.js`: roteiro público dramatizado, independente do roteiro do episódio 01.
-- `episodio-02.css`: apenas estilos específicos, sem alterar a página original.
-- `assets/quadrinhos/pendrive-apocalipse.webp` e `pendrive-painel-01..04.webp`: quadrinho original convertido para WebP e oito recortes de leitura.
-- O catálogo lista dois episódios disponíveis; `133 Músicas. Nenhuma Lembrança` continua como ideia não publicada.
+- `episodios/o-pendrive-do-apocalipse/index.html`: narrativa com quadrinho central, cenas e bastidores.
+- `content-02.js`: roteiro público original, marcado como dramatização. `app.js` e `style.css` são compartilhados, sem alteração.
+- `episodio-02.css`: estética de página específica, sem modificar o episódio 01.
+- `assets/quadrinhos/pendrive-apocalipse.webp`: imagem original convertida de PNG para WebP sem redesenho; oito recortes servem apenas para leitura em celular.
+- O cartão “O Pendrive do Apocalipse” deixa de ser ideia pendente no catálogo e passa a ser episódio publicado. A história das 133 músicas permanece como ideia, sem link falso.
+- Fontes privadas consultadas no Drive: manual de WinPE 22/10, música offline 24/10 e arquivo Narrativo 01. Nenhuma fonte privada é publicada.
+- Fatos separados da dramaturgia: boot do Windows e abertura PhotoRec conferidos, recuperação ponta a ponta não comprovada; Sentinela-X teve central offline e a ÓRBITA nasceu em etapa posterior como projeto musical separado.
 
-**Limites factuais:** o teste do Sentinela-X comprovou inicialização do instalador Windows e abertura do PhotoRec no WinPE; recuperação ponta a ponta não foi provada. O desenvolvimento musical da ÓRBITA ocorreu posteriormente e não deve ser confundido com o ambiente de emergência. As falas do quadrinho e roteiro são dramatizadas, não transcrições. Os registros históricos e dados privados continuam fora deste repositório.
+## Episódio 03 — O Museu das 91 Capas (08/11/2026)
+
+Episódio baseado em relatórios ÓRBITA Lab 30G e 30G R2 de 31/10/2026. Capa, duas interpretações em quadrinhos, cinco cenas dramatizadas, elenco, pranchas legíveis e bastidores com distinção entre fato e reconstituição. Não publica registros privados nem letras de músicas.
+
+Arquivos: `episodios/o-museu-das-91-capas/index.html`, `content-03.js`, `episodio-03.css`, `assets/quadrinhos/museu-*.webp`. Imagens originais geradas para esta crônica. Divulgação social tem três JPEGs opcionais sob `assets/instagram/`. Não altera os episódios 01 e 02.
+
+**Limite:** o Guardião relatou 91 edições de capa, não 91 obras verificadas. A investigação do erro 503 e da LRCLIB não atestou indisponibilidade global ou inexistência de letra.
