@@ -9,5 +9,7 @@ for(const x of c.episodes.filter(x=>x.status==='disponivel')){
  const link=make('a','read-episode','LER A HISTÓRIA ↗');link.href=a.href;detail.append(link);art.append(a,detail);grid.append(art)
 }
 for(const x of c.ideas){const art=make('article','idea-card');art.append(make('span','',x.tag),make('h3','',x.title),make('p','',x.description));ideas.append(art)}
-document.getElementById('episodeCount').textContent=String(c.episodes.filter(x=>x.status==='disponivel').length).padStart(2,'0');
+const availableCount=c.episodes.filter(x=>x.status==='disponivel').length;
+document.getElementById('episodeCount').textContent=String(availableCount).padStart(2,'0');
+document.getElementById('episodeCountLabel').innerHTML=availableCount===1?'HISTÓRIA<br/>DISPONÍVEL':'HISTÓRIAS<br/>DISPONÍVEIS';
 })();
