@@ -31,3 +31,11 @@
 @media(max-width:360px){.hero-memoria h1{font-size:43px;letter-spacing:-1px}.memory-cover{width:100%;margin:0}.memory-sticker{right:0;max-width:115px}.hero-memoria .hero-inner{min-width:0}}
 @media(max-width:720px){#episodio .speech{max-width:100%}#episodio .speech-text{overflow-wrap:anywhere;word-break:break-word}}
 @media(prefers-reduced-motion:reduce){.memory-cover{transform:none}}
+
+/* EP04 v2: leitura contínua dos quadrinhos, sem recortes antigos no mobile. */
+.memory-interlude{max-width:850px;margin:12px auto 56px;padding:27px 30px;background:linear-gradient(115deg,#221037,#140d20);border-left:5px solid var(--lime);box-shadow:7px 7px 0 #0b0613}
+.memory-interlude span{display:block;font-size:11px;font-weight:900;letter-spacing:1.8px;color:var(--purple)}
+.memory-interlude h3{font-size:clamp(25px,4.2vw,40px);line-height:1.05;letter-spacing:-.8px;margin:14px 0 12px;color:var(--lime);font-family:'Roboto Condensed','Arial Black',Impact,sans-serif}
+.memory-interlude p{font-size:15px;line-height:1.7;color:#e2d7ee;max-width:730px;margin:0}
+.memory-interlude-end{border-left-color:var(--purple)}
+@media(max-width:720px){.memory-interlude{padding:20px 17px;margin:12px auto 35px}.memory-interlude p{font-size:14px}.memory-page{max-width:100%;margin:25px auto 34px}.memory-page img{width:100%;height:auto}.memory-mobile-crops{display:none}}
